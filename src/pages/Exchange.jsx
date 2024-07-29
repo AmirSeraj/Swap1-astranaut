@@ -33,7 +33,6 @@ const Exchange = () => {
 
   return (
     <>
-      <AdsModal />
       <ModalComponent
         isOpen={isOpen}
         onOpenChange={onOpenChange}

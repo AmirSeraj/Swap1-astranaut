@@ -181,7 +181,6 @@ const Boost = () => {
 
   return (
     <div className="xs:px-10 px-5 pb-5 pt-14 flex flex-col w-full h-full">
-      <AdsModal />
       <Balance />
       <h1 className="text-white mt-6 mb-3 font-bold text-2xl z-50">
         Daily Boosters

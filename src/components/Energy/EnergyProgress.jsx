@@ -15,7 +15,7 @@ function EnergyProgress({
     <div className={"flex flex-col gap-1 w-full"}>
       {!topNotShow && <TrophyLevel />}
       {trophy && (
-        <div className="w-full flex justify-center gap-1 items-center text-slate-500 font-bold">
+        <div className="w-full flex justify-center gap-1 items-center text-slate-500 font-bold z-50">
           <span>{balance}</span>
           <span>/</span>
           <span>{trophyPrice}</span>

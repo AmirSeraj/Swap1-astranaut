@@ -153,6 +153,7 @@ export const Cards = ({ obj_list, callback }) => {
         <b className="text-xl">Get {rewardDist} Tokens daily !!</b>
         <IoIosArrowForward size={22} />
       </Button>
+      
       {obj_list.map((task, index) => {
         const { onOpen, isOpen, onOpenChange } = useDisclosure();
         return (
